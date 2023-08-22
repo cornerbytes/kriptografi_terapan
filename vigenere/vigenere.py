@@ -42,10 +42,10 @@ def decrypt(ciphertext: str, key: str) -> str:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="VIGENERE CIPHER 4332201015")
+    parser = argparse.ArgumentParser(description="VIGENERE CIPHER by PBL-RKS304")
     parser.add_argument('-m', '--mode', choices=["encrypt", "decrypt"], required=True, help="Mode: encrypt or decrypt")
-    parser.add_argument('message', type=str, help="Key for encryption/decryption")
-    parser.add_argument('key', type=str, help="text to be encrypted or decrypted",)
+    parser.add_argument('message', type=str, help="text to be encrypted or decrypted")
+    parser.add_argument('key', type=str, help="key for encryption/decryption")
     args = parser.parse_args()
 
     if args.mode == "encrypt":
