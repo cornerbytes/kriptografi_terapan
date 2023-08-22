@@ -16,4 +16,9 @@ python3 vigenere.py -m encrypt "RKSunderCover" "hide"
 plaintext : RKSunderCover
 ciphertext : YSVYULHVJWYIY
 key : hide
+
+python3 vigenere.py -m decrypt "YSVYULHVJWYIY" "hide"
+ciphertext : YSVYULHVJWYIY
+plaintext : RKSUNDERCOVER
+key : hide
 ```
