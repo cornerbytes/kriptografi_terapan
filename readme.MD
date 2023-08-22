@@ -7,12 +7,12 @@ general / windows
 > python3 vigenere.py -m encrypt/decrypt "your message" "your key"
 
 unix based
-> ./refactor.py -m encrypt/decrypt "your messgae" "your key"
+> ./vigenere.py -m encrypt/decrypt "your messgae" "your key"
 
 ### example:
 
 ```
-/refactor.py -m encrypt "RKSunderCover" "hide"
+python3 vigenere.py -m encrypt "RKSunderCover" "hide"
 plaintext : RKSunderCover
 ciphertext : YSVYULHVJWYIY
 key : hide
