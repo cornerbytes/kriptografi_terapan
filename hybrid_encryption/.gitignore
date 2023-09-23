@@ -1,3 +1,5 @@
 __pycache__/*
 *.pem
 *.enc
+virtual_env/*
+
