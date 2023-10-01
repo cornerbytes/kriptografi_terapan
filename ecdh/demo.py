@@ -49,7 +49,7 @@ if __name__ == "__main__":
     print("Putri public_key : \n", print_public_key_in_pem(putri_private_key))
 
     print("Generating key for udin...");sleep(1)
-    print("Uding public_key : \n", print_public_key_in_pem(udin_private_key))
+    print("Udin public_key : \n", print_public_key_in_pem(udin_private_key))
 
     print("Putri derivide key : ", hexlify(putri_derived_key).decode())
     print("Udin derivide key : ", hexlify(udin_derived_key).decode())
