@@ -51,8 +51,8 @@ if __name__ == "__main__":
     print("Generating key for udin...");sleep(1)
     print("Udin public_key : \n", print_public_key_in_pem(udin_private_key))
 
-    print("Putri derivide key : ", hexlify(putri_derived_key).decode())
-    print("Udin derivide key : ", hexlify(udin_derived_key).decode())
+    print("Putri derived key : ", hexlify(putri_derived_key).decode())
+    print("Udin derived key : ", hexlify(udin_derived_key).decode())
     
     if putri_derived_key == udin_derived_key:
         print("Key match. Successfully")
