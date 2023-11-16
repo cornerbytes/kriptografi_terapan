@@ -1,5 +1,6 @@
 ## download zip and unzip
 `unzip W8_PKI.zip -d automate`
+
 `cd automate`
 
 ## modify default section in ca.conf and personal-ca.conf
