@@ -1,22 +1,26 @@
-## clone this repository
-unzip file automate.zip
+## download zip and unzip
+`unzip W8_PKI.zip -d automate`
+`cd automate`
 
 ## modify default section in ca.conf and personal-ca.conf
 
 pastikan modif ini sesuai kelompok masing masing
 
 [default]
+
 SAN = DNS:pbl-rks304.local,DNS:*.pbl-rks304.local 
+
 name = root-ca
+
 url = pbl-rks304.local
 
 
 ## create folder
- - mkdir certs
- - mkdir private
- - mkdir db 
- - touch db/index
- - echo 1000 > db/serial
+ - `mkdir certs`
+ - `mkdir private`
+ - `mkdir db`
+ - `touch db/index`
+ - `echo 1000 > db/serial`
 
 
 ## create root CA 
