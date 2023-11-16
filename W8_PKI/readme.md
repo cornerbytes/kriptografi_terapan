@@ -31,6 +31,7 @@ pastikan O dan CN sesuai dengan ketentuan tugas
 
 ## create intermediate csr and pair key
 `openssl req -config ca.conf -extensions sub_ca_ext -newkey rsa:4096 -keyout private/intermediate-ca.key -out certs/intermediate-ca.csr`
+
 pastikan O dan CN sesuai dengan ketentuan tugas
 
 ## create sign the intermediate csr using certificate root
@@ -42,4 +43,18 @@ pastikan O dan CN sesuai dengan ketentuan tugas
  - enter email and name
 
 done!
+
+
+## install file .pf12
+ - install .pf12 di laptop masing masing
+
+## outlook setting
+
+see this 
+ - https://www.thesslstore.com/knowledgebase/email-signing-support/install-e-mail-signing-certificates-outlook/
+
+## tips
+ - baca ketika tool atau promptnya error kenapa
+ - pastikan isi password sesuai antara root-ca intermediate-ca ataupun apapun itu (baca baik-baik)
+
 
