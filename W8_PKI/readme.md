@@ -22,6 +22,7 @@ url = pbl-rks304.local
  - `mkdir db`
  - `touch db/index`
  - `echo 1000 > db/serial`
+ - `echo 1000 > db/crlnumber`
 
 
 ## create root CA 
